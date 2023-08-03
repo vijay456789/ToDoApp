@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding-right: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
+    background-color: white;
+    
+}
+
+h1 {
+    
+    text-align: center;
+    height: 150px;
+    color: rgb(5, 5, 5);
+    text-align: center;
+    font-size: 50px;
+    line-height: 150px;
+    margin: 0;
+    font-family: 'Great Vibes', cursive;
+}
+.task-box.completed {
+    background-color: #4b4a4a; 
+    text-decoration: line-through;
+  }
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 20px;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.task-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+    /* display: inline-block; */
+}
+
+.task-box {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid black; 
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    margin-top: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9)
+}
+
+.delete-btn,
+.update-btn,
+.complete-btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 2%;
+}
+.complete-btn{
+    margin-top: 5px;
+}
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.update-btn {
+    background-color: dodgerblue;
+    color: white;
+}
+body{
+    background-image:url(backgrouund_11zon11.jpeg) ;
+    background-size: cover;
+}
+
